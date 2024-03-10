@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Szorzotabla</title>
+    <link rel="stylesheet" type="text/css" href="/css/szorzo.css">
 </head>
 <body>
     <h1>HEllo world</h1>
-    <table border="1">
+    <table>
         <tr>
             <td>1 * 1 = 1</td>
             <td>1 * 2 = 2</td>
@@ -18,7 +19,6 @@
             <td>1 * 8 = 8</td>
             <td>1 * 9 = 9</td>
             <td>1 * 10 = 10</td>
-
         </tr>
     </table>
 </body>
