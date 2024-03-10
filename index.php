@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Szorzotabla</title>
-    <link rel="stylesheet" type="text/css" href="/css/szorzo.css">
+    <link rel="stylesheet" type="text/css" href="css/szorzo.css">
 </head>
 <body>
     <h1>HEllo world</h1>
