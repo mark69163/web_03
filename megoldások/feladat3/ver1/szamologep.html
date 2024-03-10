@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Számológép v1</title>
+</head>
+<body>
+    <form action="eredmeny.php">
+        <input type="text" name="operandus1" pattern="[1-9][0-9]*|0" required>
+        <select name="muvelet">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>        
+        <input type="text" name="operandus2" pattern="[1-9][0-9]*|0" required>
+        <input type="submit" name="szamol" value="="> ?
+    </form>
+</body>
+</html>
