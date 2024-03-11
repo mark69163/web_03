@@ -6,20 +6,24 @@
     <link rel="stylesheet" type="text/css" href="css/szorzo.css">
 </head>
 <body>
-    <h1>Hello world</h1>
-    <table>
-        <tr>
-            <td>1 * 1 = 1</td>
-            <td>1 * 2 = 2</td>
-            <td>1 * 3 = 3</td>
-            <td>1 * 4 = 4</td>
-            <td>1 * 5 = 5</td>
-            <td>1 * 6 = 6</td>
-            <td>1 * 7 = 7</td>
-            <td>1 * 8 = 8</td>
-            <td>1 * 9 = 9</td>
-            <td>1 * 10 = 10</td>
-        </tr>
-    </table>
+    <table border="1px">
+        <tbody>
+            <tr>
+                <?php
+                    for ($cella=1;$cella<=10;$cella++){
+                        echo "<td>";
+                        for($sor=1;$sor<=10;$sor++){
+                            echo "$cella * $sor = ";
+                            echo $cella*$sor;
+                            echo '<br>';
+                        }
+
+                    }
+
+
+                ?>
+            </tr>
+        </tbody>>
+    </table>>
 </body>
 </html>
