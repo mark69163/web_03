@@ -1,0 +1,44 @@
+.container {
+    background: #ffab44;
+    border-radius: 2%;
+    margin: 1%;
+    padding: 2%;
+    height: 500px;
+    width: auto;
+    resize: none;
+}
+
+select {
+    display: inline;
+    float: right;
+
+}
+
+.weights{
+    margin-left: 83%;
+    align-items: center;
+}
+
+textarea{
+    float: right;
+    display: inline;
+    height: 10rem;
+    width: 15rem;
+    resize: none;
+}
+
+input#text{
+    float: right;
+    display: inline;
+    height: 1rem;
+    width: 15em;
+    resize: none;
+}
+
+input#send{
+    float: right;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+
