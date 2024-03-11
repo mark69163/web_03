@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/szorzo.css">
 </head>
 <body>
-    <h1>HEllo world</h1>
+    <h1>Hello world</h1>
     <table>
         <tr>
             <td>1 * 1 = 1</td>
